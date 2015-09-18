@@ -1,0 +1,1 @@
+ zcat CD4_nTreg_Novo_BS_supplement_1.fq.gz | sed -n '/+/{g;1!p;};h'| awk '{cp=$0;if(!frq[cp]){frq[cp] =1}else{frq[cp]++}}END{for(cp in frq)print(cp, frq[cp])}' | sort -k 2 -r  > CD4_nTreg_Novo_BS_supplement_1.dupilcate.count
