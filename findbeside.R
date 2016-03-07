@@ -2,8 +2,8 @@ findbeside <- function(dmr,tr,bn=1){
   # 寻找临近dmr的特征区域
   #
   # Args:
-  #     dmr: a data.table include start, end
-  #     tr: a data.table include start, end
+  #     dmr: a data.table include id, start, end
+  #     tr: a data.table include id, start, end
   #     bn: integer, the number of regrion beside dmr
   # Returns:
   #     a data.table include start, end
