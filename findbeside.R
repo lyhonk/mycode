@@ -6,7 +6,7 @@ findbeside <- function(dmr,tr,bn=1){
   #     tr: a data.table include id, start, end
   #     bn: integer, the number of regrion beside dmr
   # Returns:
-  #     a data.table include start, end
+  #     a data.table include dmr id and tr id
   # Author:
   #     Jimmy Chen, E-mail: Jimmy_ccj@outlook.com
   
